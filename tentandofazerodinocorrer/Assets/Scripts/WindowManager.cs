@@ -25,6 +25,7 @@ public class WindowManager : MonoBehaviour
     public TextMeshProUGUI ScoreText { get => scoreText;}
     public TextMeshProUGUI FinalScoreText { get => finalScoreText;}
     public TextMeshProUGUI RecordText { get => recordText;}
+    public GameObject GameOverWindown { get => gameOverWindown; set =>  }
 
     public void Menu() 
     {

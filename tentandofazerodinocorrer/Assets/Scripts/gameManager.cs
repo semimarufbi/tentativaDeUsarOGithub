@@ -10,9 +10,10 @@ public class GameManager : MonoBehaviour
     int score;
     Vector2 screenBounds;
 
-    public float Speed { get => speed;  }
-    public int Score { get => score; }
+   
     public Vector2 ScreenBounds { get => screenBounds;  }
+    public float Speed { get => speed; set => speed = value; }
+    public int Score { get => score; set => score = value; }
     #region sigleton
     private void Awake()
     {
