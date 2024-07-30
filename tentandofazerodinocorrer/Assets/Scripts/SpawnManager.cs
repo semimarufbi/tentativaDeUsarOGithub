@@ -5,10 +5,14 @@ using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
+
     float cooldown := 2;
     float clock;
     [SerializeField]
     GameObject object;
+
+   
+
 
       private void Update()
     {
