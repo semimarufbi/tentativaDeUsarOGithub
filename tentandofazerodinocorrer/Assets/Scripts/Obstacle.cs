@@ -10,8 +10,8 @@ public class Obstacle : MonoBehaviour
 
     private void Update()
     {
-        rigidbody2d.velocity = new Vector2(-GameManager.instance.Speed1, rigidbody2d.velocity.y);
-        if (transform.position.x < -GameManager.instance.screenbounds.x) 
+        rigidbody2d.velocity = new Vector2(-GameManager.instance.Speed, rigidbody2d.velocity.y);
+        if (transform.position.x < -GameManager.instance.ScreenBounds.x) 
         {
         Destroy(gameObject);
         }
